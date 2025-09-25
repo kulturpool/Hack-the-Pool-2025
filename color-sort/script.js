@@ -4,7 +4,7 @@ class ColorSort {
         this.imageData = []; // Store image metadata with color information
         this.colorThief = new ColorThief();
         this.isLoading = false;
-        this.currentSortMethod = 'hue';
+        this.currentSortMethod = 'brightness'; // Default sort method
 
         this.initializeElements();
         this.bindEvents();
@@ -229,20 +229,20 @@ class ColorSort {
         // Calculate grid dimensions - optimized for vertical-first layout
         const totalImages = sortedData.length;
         const aspectRatio = this.width / this.height;
-        
+
         // Calculate rows first (since we fill vertically), then columns
         const rows = Math.ceil(Math.sqrt(totalImages / aspectRatio));
         const cols = Math.ceil(totalImages / rows);
-        
+
         const cellWidth = this.width / cols;
         const cellHeight = this.height / rows;
         const imageSize = Math.min(cellWidth, cellHeight) - 2;
-        
+
         console.log(`Grid: ${cols} cols × ${rows} rows (${totalImages} images)`);
         console.log(`Cell size: ${cellWidth.toFixed(1)} × ${cellHeight.toFixed(1)}, Image size: ${imageSize.toFixed(1)}`);
         console.log(`Canvas: ${this.width} × ${this.height}`);
         console.log(`Aspect ratio: ${aspectRatio.toFixed(2)}`);
-        
+
 
         // Create image elements
         const imageGroups = this.svg.selectAll('.image-group')
@@ -256,12 +256,12 @@ class ColorSort {
                 const col = Math.floor(i / rows);
                 const x = col * cellWidth + cellWidth / 2;
                 const y = row * cellHeight + cellHeight / 2;
-                
+
                 // Debug logging for first few images
                 if (i < 5) {
                     console.log(`Image ${i}: row ${row}, col ${col} -> (${x.toFixed(1)}, ${y.toFixed(1)})`);
                 }
-                
+
                 return `translate(${x}, ${y})`;
             });
 
