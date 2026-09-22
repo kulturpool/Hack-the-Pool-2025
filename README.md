@@ -11,12 +11,12 @@ A collection of interactive web applications for creative exploration and visual
 
 This repository contains the following web applications:
 
-- **[automated-summaries](https://kulturpool.github.io/hack-the-pool-2025/automated-summaries/)**: AI-powered cultural search with automatic summaries
-- **[fullscreen-shuffle](https://kulturpool.github.io/hack-the-pool-2025/fullscreen-shuffle)**: Immersive fullscreen slideshow of cultural images
-- **[color-sort](https://kulturpool.github.io/hack-the-pool-2025/color-sort/)**: Data visualization for color analysis of cultural images
-- **[cluster-subjects](https://kulturpool.github.io/hack-the-pool-2025/cluster-subjects/)**: Network visualization of thematic connections
-- **[wikidata-connect](https://kulturpool.github.io/hack-the-pool-2025/wikidata-connect/)**: Linking cultural objects with Wikidata
-- **[year-guessing-game](https://kulturpool.github.io/hack-the-pool-2025/year-guessing-game/)**: A simple guessing game
+- **[automated-summaries](https://kulturpool.github.io/Hack-The-Pool-2025/automated-summaries/)**: AI-powered cultural search with automatic summaries
+- **[fullscreen-shuffle](https://kulturpool.github.io/Hack-The-Pool-2025/fullscreen-shuffle)**: Immersive fullscreen slideshow of cultural images
+- **[color-sort](https://kulturpool.github.io/Hack-The-Pool-2025/color-sort/)**: Data visualization for color analysis of cultural images
+- **[cluster-subjects](https://kulturpool.github.io/Hack-The-Pool-2025/cluster-subjects/)**: Network visualization of thematic connections
+- **[wikidata-connect](https://kulturpool.github.io/Hack-The-Pool-2025/wikidata-connect/)**: Linking cultural objects with Wikidata
+- **[year-guessing-game](https://kulturpool.github.io/Hack-The-Pool-2025/year-guessing-game/)**: A simple guessing game
 
 All applications use the [Kulturpool API](https://www.kulturpool.at/) to access Austria's cultural heritage collection.
 
