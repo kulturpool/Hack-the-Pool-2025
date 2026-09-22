@@ -11,11 +11,12 @@ Eine Sammlung interaktiver Webanwendungen zur kreativen Erkundung und Visualisie
 
 Dieses Repository enthält folgende Webanwendungen:
 
-- **Automated Summaries**: KI-gestützte Kultursuche mit automatischen Zusammenfassungen
-- **Fullscreen Shuffle**: Immersive Vollbild-Diashow von Kulturbildern
-- **Color Sort**: Datenvisualisierung zur Farbanalyse von Kulturbildern
-- **Cluster Subjects**: Netzwerkvisualisierung thematischer Verbindungen
-- **Wikidata Connect**: Verknüpfung von Kulturobjekten mit Wikidata
+- **[automated-summaries](https://kulturpool.github.io/Hack-The-Pool-2025/automated-summaries/)**: KI-gestützte Kultursuche mit automatischen Zusammenfassungen
+- **[fullscreen-shuffle](https://kulturpool.github.io/Hack-The-Pool-2025/fullscreen-shuffle)**: Immersive Vollbild-Diashow von Kulturbildern
+- **[color-sort](https://kulturpool.github.io/Hack-The-Pool-2025/color-sort/)**: Datenvisualisierung zur Farbanalyse von Kulturbildern
+- **[cluster-subjects](https://kulturpool.github.io/Hack-The-Pool-2025/cluster-subjects/)**: Netzwerkvisualisierung thematischer Verbindungen
+- **[wikidata-connect](https://kulturpool.github.io/Hack-The-Pool-2025/wikidata-connect/)**: Verknüpfung von Kulturobjekten mit Wikidata
+- **[year-guessing-game](https://kulturpool.github.io/Hack-The-Pool-2025/year-guessing-game/)**: Jahreszahlen erraten
 
 Alle Anwendungen nutzen die [Kulturpool API](https://www.kulturpool.at/) für den Zugang zu Österreichs Kulturerbe-Sammlung.
 
