@@ -4,15 +4,19 @@
 
 Eine Sammlung interaktiver Webanwendungen zur kreativen Erkundung und Visualisierung von Kulturdaten aus der Kulturpool-API. Die Beispiele zeigen verschiedene Ansätze für die Arbeit mit Kulturerbe-Bildern und -Daten.
 
+**Powered by**   
+<a href="https://clariah.at/de/"><img src="https://info.kulturpool.at/content/images/2025/06/image.png" alt="CLARIAH-AT Logo" width="200"/></a>
+
 ## Überblick
 
 Dieses Repository enthält folgende Webanwendungen:
 
-- **Automated Summaries**: KI-gestützte Kultursuche mit automatischen Zusammenfassungen
-- **Fullscreen Shuffle**: Immersive Vollbild-Diashow von Kulturbildern
-- **Color Sort**: Datenvisualisierung zur Farbanalyse von Kulturbildern
-- **Cluster Subjects**: Netzwerkvisualisierung thematischer Verbindungen
-- **Wikidata Connect**: Verknüpfung von Kulturobjekten mit Wikidata
+- **[automated-summaries](https://kulturpool.github.io/Hack-The-Pool-2025/automated-summaries/)**: KI-gestützte Kultursuche mit automatischen Zusammenfassungen
+- **[fullscreen-shuffle](https://kulturpool.github.io/Hack-The-Pool-2025/fullscreen-shuffle)**: Immersive Vollbild-Diashow von Kulturbildern
+- **[color-sort](https://kulturpool.github.io/Hack-The-Pool-2025/color-sort/)**: Datenvisualisierung zur Farbanalyse von Kulturbildern
+- **[cluster-subjects](https://kulturpool.github.io/Hack-The-Pool-2025/cluster-subjects/)**: Netzwerkvisualisierung thematischer Verbindungen
+- **[wikidata-connect](https://kulturpool.github.io/Hack-The-Pool-2025/wikidata-connect/)**: Verknüpfung von Kulturobjekten mit Wikidata
+- **[year-guessing-game](https://kulturpool.github.io/Hack-The-Pool-2025/year-guessing-game/)**: Jahreszahlen erraten
 
 Alle Anwendungen nutzen die [Kulturpool API](https://www.kulturpool.at/) für den Zugang zu Österreichs Kulturerbe-Sammlung.
 
