@@ -1,10 +1,10 @@
-# Hack The Pool - Beispielanwendungen
+# Hack the Pool - Beispielanwendungen
 
-[![Hack The Pool](https://info.kulturpool.at/content/images/size/w2000/2025/09/Hack-the-Pool-2025-Banner--780-x-430-px-.png)](https://info.kulturpool.at/hack-the-pool)
+[![Hack the Pool](https://info.kulturpool.at/content/images/size/w2000/2025/09/Hack-the-Pool-2025-Banner--780-x-430-px-.png)](https://info.kulturpool.at/hack-the-pool)
 
 Eine Sammlung interaktiver Webanwendungen zur kreativen Erkundung und Visualisierung von Kulturdaten aus der Kulturpool-API. Die Beispiele zeigen verschiedene Ansätze für die Arbeit mit Kulturerbe-Bildern und -Daten.
 
-**Powered by**   
+**Powered by**
 <a href="https://clariah.at/de/"><img src="https://info.kulturpool.at/content/images/2025/06/image.png" alt="CLARIAH-AT Logo" width="200"/></a>
 
 ## Überblick
